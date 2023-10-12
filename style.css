@@ -1,0 +1,654 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto:wght@300&family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Roboto:wght@300&family=Space+Grotesk&display=swap');
+
+
+/* SCREEN FOR DESKTOP */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/bg-main-desktop.png);
+    z-index: 1;
+
+}
+
+main {
+    margin-left: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    background-image: url(./assets/bg-pattern-1.svg);
+    background-repeat: no-repeat;
+    height: 468px;
+    width: 312px;
+    position: relative;
+    top: -40px;
+    /* right: -50px; */
+}
+
+.left {
+    background-image: url(./assets/logo.svg);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 146.09px;
+    margin-top: 61px;
+}
+
+.section1 {
+    position: relative;
+    top: -250px;
+    line-height: 100px;
+}
+
+
+.section1 h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    color: #191826;
+    width: 1015px;
+
+}
+
+.section1 h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #191826;
+    padding-top: 50px;
+    width: 825px;
+
+}
+
+.container {
+    background-color: #191826;
+    width: 1110px;
+    height: 600px;
+    border-radius: 10px;
+
+}
+
+.design {
+    background-image: url(./assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    height: 468px;
+    width: 312px;
+    position: relative;
+    bottom: 1300px;
+    left: 335px;
+
+}
+
+.phone {
+    background-image: url(./assets/illustration-app.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 642px;
+    width: 321px;
+    position: relative;
+    bottom: 785px;
+    left: 100px;
+    z-index: 1;
+
+}
+
+.box {
+    background-color: #FA7453;
+    width: 446px;
+    height: 625px;
+    border-radius: 10px;
+    position: relative;
+    left: 580px;
+    top: 120px;
+    z-index: 1;
+
+}
+
+.box-text {
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.box-text h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FCFAF9;
+    letter-spacing: 1px;
+}
+
+.box-text h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FCFAF9;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    padding: 20px 0 0;
+}
+
+.dollar {
+    position: relative;
+    top: 120px;
+    left: 50px;
+
+}
+
+.dollar h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 65px;
+    color: #FCFAF9;
+
+}
+
+.dollar h2 span {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #FCFAF9;
+    position: relative;
+    top: -20px;
+
+}
+
+.buttons {
+    position: relative;
+    top: 150px;
+    left: 50px;
+    line-height: 80px;
+}
+
+.buttons .butt1 button {
+    color: #fff;
+    /* text-decoration-color: #fff; */
+    background-color: #191826;
+    width: 330px;
+    height: 61px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'IBM Plex Sans';
+    font-weight: 510;
+    font-size: 18px;
+    text-decoration: none;
+    /* box-sizing: border-box;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s; */
+
+
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    color: #66E2DC;
+}
+
+
+
+.buttons .butt2 button {
+    color: #191826;
+    background-color: #FCFAF9;
+    width: 330px;
+    height: 61px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'IBM Plex Sans';
+    font-weight: 510;
+    font-size: 18px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 202px 0 91px;
+
+}
+
+.logo {
+    background-image: url(./assets/logo.svg);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 146.09px;
+}
+
+.foot-text {
+    position: relative;
+    right: 150px;
+    width: 336px;
+}
+
+.foot-text h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    color: #191826;
+    word-spacing: -1px;
+    line-height: 25px;
+
+}
+
+.foot-text h3 span {
+    font-weight: bold;
+
+}
+
+
+.icons {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+    right: 140px;
+
+}
+
+.icon1 {
+    background-image: url(./assets/icon-facebook.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon2 {
+    background-image: url(./assets/icon-instagram.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.icon3 {
+    background-image: url(./assets/icon-twitter.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+/* SCREEN FOR TABLET */
+@media screen and (max-width : 768px) {
+
+    body {
+        background-image: url(./assets/bg-main-tablet.png);
+        z-index: 1;
+
+    }
+
+    main {
+        margin-left: 39px;
+    }
+
+    .left {
+        background-image: url(./assets/logo.svg);
+        background-repeat: no-repeat;
+        height: 32px;
+        width: 146.09px;
+        margin-top: 61px;
+    }
+
+    .right {
+        background-image: url(./assets/bg-pattern-1.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 400px;
+        width: 266.67px;
+        position: relative;
+        top: -43px;
+        left: 30px;
+
+    }
+
+    .section1 h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 64px;
+        font-weight: bold;
+        line-height: 64px;
+        letter-spacing: -0.73px;
+        color: #191826;
+        width: 520px;
+    }
+
+    .section1 h3 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #191826;
+        padding-top: 50px;
+        width: 514px;
+
+    }
+
+
+    .container {
+        background-color: #191826;
+        width: 696px;
+        height: 600px;
+        border-radius: 10px;
+
+    }
+
+
+    .design {
+        background-image: url(./assets/bg-pattern-2.svg);
+        background-repeat: no-repeat;
+        height: 420px;
+        width: 280px;
+        position: relative;
+        bottom: 1150px;
+        left: 200px;
+
+    }
+
+    .phone {
+        background-image: url(./assets/illustration-app.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 556px;
+        width: 270.21px;
+        position: relative;
+        bottom: 680px;
+        left: 50px;
+
+    }
+
+    .box {
+        background-color: #FA7453;
+        width: 399px;
+        height: 548px;
+        border-radius: 10px;
+        position: relative;
+        left: 230px;
+        top: 120px;
+        z-index: 2;
+
+    }
+
+    .box-text {
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+
+    .box-text h2 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        color: #FCFAF9;
+        letter-spacing: 1px;
+    }
+
+    .box-text h3 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 18px;
+        font-weight: lighter;
+        color: #FCFAF9;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        padding: 15px 0 0;
+        /* width: 333px; */
+    }
+
+    .dollar {
+        position: relative;
+        top: 80px;
+        left: 50px;
+
+    }
+
+    .buttons {
+        position: relative;
+        top: 100px;
+        left: 50px;
+        line-height: 80px;
+    }
+
+    .buttons .butt1 button {
+        color: #fff;
+        background-color: #191826;
+        width: 296px;
+        height: 61px;
+        border-radius: 10px;
+        border-style: none;
+        font-family: 'IBM Plex Sans';
+        font-weight: 510;
+        font-size: 18px;
+
+    }
+
+    .buttons .butt2 button {
+        color: #191826;
+        background-color: #FCFAF9;
+        width: 296px;
+        height: 61px;
+        border-radius: 10px;
+        border-style: none;
+        font-family: 'IBM Plex Sans';
+        font-weight: 510;
+        font-size: 18px;
+
+    }
+
+
+    .footer .foot-text {
+        position: relative;
+        top: 50px;
+        left: -220px;
+        width: 336px;
+
+    }
+
+    .icons {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        top: 70px;
+        left: -40px;
+
+    }
+}
+
+
+
+
+/* SCREEN FOR MOBILE */
+@media screen and (max-width : 375px) {
+
+    body {
+        background-image: url(./assets/bg-main-mobile.png);
+        z-index: 1;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    header {
+        margin-left: 39px;
+    }
+
+    .left {
+        background-image: url(./assets/logo.svg);
+        background-repeat: no-repeat;
+        height: 32px;
+        width: 146.09px;
+        margin-top: 61px;
+
+    }
+
+    .right {
+        display: none;
+    }
+
+    .section1 {
+        margin-left: 39px;
+    }
+
+    .section1 h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 48px;
+        letter-spacing: -0.73px;
+        color: #191826;
+        width: 327px;
+        position: relative;
+        top: 300px;
+    }
+
+
+    .section1 h3 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #191826;
+        padding-top: 50px;
+        width: 327px;
+        position: relative;
+        top: 300px;
+
+    }
+
+    .section2 {
+        position: relative;
+        top: 190px;
+    }
+
+
+    .container {
+        background-color: #191826;
+        width: 375px;
+        height: 600px;
+        border-radius: 10px;
+
+    }
+
+
+    .design {
+        background-image: url(./assets/bg-pattern-2.svg);
+        background-repeat: no-repeat;
+        height: 420px;
+        width: 280px;
+        position: relative;
+        bottom: 976px;
+        left: 30px;
+
+    }
+
+    .phone {
+        background-image: url(./assets/illustration-app.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 430px;
+        width: 208.97px;
+        position: relative;
+        bottom: 640px;
+        left: 60px;
+
+    }
+
+
+    .box {
+        background-color: #FA7453;
+        width: 375px;
+        height: 546px;
+        border-radius: 10px;
+        position: relative;
+        left: 0;
+        top: 415px;
+        z-index: 2;
+
+    }
+
+    .box-text {
+        position: relative;
+        top: 50px;
+        left: 36px;
+    }
+
+    .box-text h3 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 18px;
+        font-weight: lighter;
+        color: #FCFAF9;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        padding: 15px 0 0;
+        /* width: 302px; */
+    }
+
+    .dollar {
+        position: relative;
+        top: 80px;
+        left: 36px;
+
+    }
+
+    .buttons {
+        position: relative;
+        top: 100px;
+        left: 36px;
+        line-height: 80px;
+    }
+
+    .logo {
+        margin-left: 39px;
+        position: relative;
+        top: 420px;
+    }
+
+    .footer {
+        display: block;
+        justify-content: space-between;
+        margin: 202px 0 91px;
+
+    }
+
+    .footer .foot-text {
+        position: relative;
+        top: 450px;
+        left: 39pxg;
+        width: 327px;
+
+
+    }
+
+    .foot-text h3 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 16px;
+        font-weight: lighter;
+        color: #191826;
+        word-spacing: 0px;
+        line-height: 26px;
+
+
+
+    }
+
+    .icons {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        top: 500px;
+        left: 39px;
+
+    }
+
+
+
+}
